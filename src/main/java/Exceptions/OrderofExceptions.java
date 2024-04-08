@@ -1,5 +1,7 @@
 package Exceptions;
 
+import com.pratice.oops.AccessModifier;
+
 public class OrderofExceptions {
 
     public static void main(String[] args) {
@@ -26,6 +28,6 @@ public class OrderofExceptions {
         catch (Exception e){
             e.printStackTrace();
         }
-
+        AccessModifier.test1();
     }
 }

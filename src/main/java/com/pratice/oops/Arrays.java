@@ -1,6 +1,6 @@
 package com.pratice.oops;
 
-public class Arrays {
+public class Arrays git{
     public static void main(String[] args) {
 
         /* int[] a = new int[] {1,2,2,3,3,4};
@@ -12,6 +12,8 @@ public class Arrays {
         int[] a1 = {1,3,4,2,45};
         for(int i:a1){
             System.out.println(a1[i]);
+
+
         }
     }
 }
