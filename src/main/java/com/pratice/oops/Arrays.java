@@ -1,6 +1,6 @@
 package com.pratice.oops;
 
-public class Arrays git{
+public class Arrays {
     public static void main(String[] args) {
 
         /* int[] a = new int[] {1,2,2,3,3,4};
