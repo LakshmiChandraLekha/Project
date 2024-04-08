@@ -1,6 +1,8 @@
 package Exceptions;
 
-public class Pratice {
+import com.pratice.oops.AccessModifier;
+
+public class Pratice extends AccessModifier {
 
     public static void main(String[] args) {
 
@@ -33,6 +35,9 @@ public class Pratice {
             throw new ArithmeticException("lekha");
 
         }
+
+        AccessModifier.test3();
+        AccessModifier.test1();
 
     }
 

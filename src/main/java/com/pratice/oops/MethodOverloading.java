@@ -25,6 +25,10 @@ public class MethodOverloading extends Child{
         m.test1();
         m.test2();
 
+        AccessModifier.test1();
+        AccessModifier.test4();
+        AccessModifier.test3();
+
     }
 
 
