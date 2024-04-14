@@ -11,6 +11,6 @@ public class Greatestvaluefromarray {
                 max = a[i];
             }
         }
-        System.out.println("Greatest value from an array is " + max);
+        System.out.println("Maximum value from an array is " + max);
     }
 }
