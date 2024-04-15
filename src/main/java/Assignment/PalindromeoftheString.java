@@ -12,7 +12,7 @@ public class PalindromeoftheString {
             revString = revString + string.charAt(i);
         }
         System.out.println("Reverse of the String " + revString);
-        if(string.equals(revString)){
+        if(revString.equals(string)){
             System.out.println("Given string is palindrome");
         }
         else {
