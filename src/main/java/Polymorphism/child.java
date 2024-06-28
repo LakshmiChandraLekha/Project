@@ -1,14 +1,8 @@
 package Polymorphism;
 
-public class child extends parent {
+public class child {
 
-    @Override
-    public void test() {
-        System.out.println("testcase1 is completed");
-    }
-
-    @Override
-    public void testcase() {
-        System.out.println("testcase2 is working");
+    public  void test(){
+        System.out.println("testcase1 is not working");
     }
 }
