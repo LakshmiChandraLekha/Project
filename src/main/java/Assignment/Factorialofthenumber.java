@@ -6,7 +6,7 @@ public class Factorialofthenumber {
        // factorial number 1*2*3*4*5
         int num = 5;
         int factnum = 1;
-        for(int i=factnum; i<=num; i++){
+        for(int i=1; i<=num; i++){
             factnum = factnum * i;
         }
         System.out.println("Factorial of the given number " + factnum);

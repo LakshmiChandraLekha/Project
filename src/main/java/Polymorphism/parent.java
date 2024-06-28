@@ -2,7 +2,8 @@ package Polymorphism;
 
 public class parent {
 
-    public void test(){
+
+    public  void test(){
         System.out.println("testcase1 is working");
     }
     public void testcase(){
