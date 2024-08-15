@@ -22,9 +22,10 @@ public class Arraylist2 {
         string.add("xyxz");
         System.out.println(string);
 
-        List list = new ArrayList();
-        list.addAll(string);
-        list.addAll(integer);
+        List<Object> list = new ArrayList();
+         list.add(4);
+         list.add("lekha");
+         list.add('c');
         System.out.println(list);
 
 
