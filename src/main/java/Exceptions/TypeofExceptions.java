@@ -2,6 +2,8 @@ package Exceptions;
 
 public class TypeofExceptions {
    String s;
+
+
     public static void main(String[] args) {
 
         TypeofExceptions t = new TypeofExceptions();
