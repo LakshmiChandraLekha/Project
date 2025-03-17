@@ -11,6 +11,7 @@ public class CountDuplicateWordFromString {
 
     public static void countDuplicatesWords(String inputString){
                String[] words = inputString.split(" ");
+
         HashMap<String, Integer> wordCount = new HashMap<>();
                for(String word: words){
                    if(wordCount.containsKey(word)){

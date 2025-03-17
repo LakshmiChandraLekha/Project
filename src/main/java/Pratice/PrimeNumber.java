@@ -6,15 +6,26 @@ import java.util.*;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-
-        List<Object> list = new ArrayList<>();
-        list.add(4);
-        list.add("lekha");
-        list.add('L');
-        list.add(43.5);
-        list.add(null);
-        System.out.println(list);
+        String inputString = "aaabccccdd";
+        Map<Character, Integer> charCount= new HashMap<>();
+        for(int i=0; i<inputString.length(); i++){
+            char ch = inputString.charAt(i);
+            if(charCount.containsKey(ch)){
+                charCount.put(ch, charCount.get(ch)+1);
+            }
+            else{
+                charCount.put(ch,1);
+            }
+        }
+        Set<Character> charsInMap = charCount.keySet();
+        for(char ch1: charsInMap){
+            if(charCount.get(ch1) >=1){
+                System.out.print(ch1 + "" + charCount.get(ch1));
+            }
+        }
+        }
     }
-}
+
+
 
 

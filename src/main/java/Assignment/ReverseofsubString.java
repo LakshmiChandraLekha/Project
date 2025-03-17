@@ -7,13 +7,13 @@ public class ReverseofsubString {
         String string = "Hello World I love selenium";
         String[] split = string.split(" ");
         String revString = " ";
-        for(int i=0; i<split.length; i++){
+        for(int i=0; i< split.length; i++){
             String subString = split[i];
-            String revsubString = " ";
+            String revSubString = " ";
             for(int j=subString.length()-1; j>=0; j--){
-                revsubString = revsubString + subString.charAt(j);
+                revSubString = revSubString + subString.charAt(j);
             }
-            revString = revString + revsubString;
+            revString = revString + revSubString;
         }
         System.out.println(revString);
     }
